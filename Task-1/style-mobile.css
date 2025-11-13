@@ -1,0 +1,33 @@
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .list-pairs {
+        flex-direction: column;
+    }
+
+    #pairList {
+        height: 200px;
+    }
+
+    .controls {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .controls button {
+        width: 48%;
+        margin-bottom: 5px;
+    }
+
+    .row-input {
+        flex-direction: column;
+    }
+
+    .row-input button {
+        width: 100%;
+    }
+}
