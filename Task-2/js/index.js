@@ -1,4 +1,5 @@
 const uContainer = document.getElementById('users-container');
+
 async function displayUsers() {
     try {
         const response = await fetch(`https://jsonplaceholder.typicode.com/users`)
@@ -38,4 +39,5 @@ async function displayUsers() {
         uContainer.appendChild(errP);
     }
 }
+
 displayUsers();
