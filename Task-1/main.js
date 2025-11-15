@@ -14,7 +14,7 @@ function isValidation(str) {
     return /^[a-zA-Z0-9а-яА-ЯґҐєЄіІїЇ]+$/.test(str);
 }
 
-// Add button and validation
+// функція на валідацію
 function addPair() {
     const rowInput = inputPair.value.trim();
     // перевірки на заповненість полів і синтаксису
@@ -69,7 +69,7 @@ inputPair.addEventListener('keydown', (e) => {
     }
 });
 
-// Sort by Name func ідентично і в Sort by Value func
+// функція сортування за ім'ям ідентично і в сортування за значенням
 function sortByName() {
     dataStore.sort((a, b) => {
         // if (a.name > b.name) {
@@ -100,7 +100,7 @@ function sortByName() {
     })
 }
 
-// Sort by Value func
+// функція сортування за значенням
 function sortByValue() {
     dataStore.sort((a, b) => {
         // if (a.value > b.value) {
@@ -127,7 +127,7 @@ function sortByValue() {
     })
 }
 
-// Deleted func
+// функція видалення
 function deleteSelected() {
 
     // отримуємо вибрані елементи
